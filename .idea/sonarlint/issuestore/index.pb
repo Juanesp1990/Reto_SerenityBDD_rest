@@ -11,10 +11,6 @@ f
 ,src/test/java/co/com/sofka/ServiceSetup.java,5\6\569597c939f82b44d992ee18219afd344902d628
 d
 4src/main/java/co/com/sofka/models/PostJsonModel.java,7\8\785b99c9c1268dffb2316ed61056a838223a4a5a
-r
-Bsrc/main/java/co/com/sofka/questions/ResponseQuestionPostJson.java,b\f\bfe7075a0b97c98fb85522b1e245630ddb293dc4
-f
-6src/main/java/co/com/sofka/questions/ResponseCode.java,b\7\b72afe5f4b78ffd886b47f3ce25db689e4ceb2ad
 t
 Dsrc/main/java/co/com/sofka/questions/ResponseQuestionPostReqres.java,5\8\580e7dbbd5fbe587f335b617073a0ec67f09b8c1
 q
