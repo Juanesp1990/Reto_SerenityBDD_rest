@@ -50,9 +50,9 @@ public class PutStepdefinition extends ServiceSetup {
     public void elUsuarioDeberaObtenerUnCodigoDeRespuestaYLosDatosActualizados (Integer statusCode) {
         try {
             actor.should(
-                    seeThat("El codigo de respuesta", ResponseCode
+                    seeThat("El codigo de respuesta es ", ResponseCode
                             .was(), equalTo(statusCode)),
-                    seeThat("el campo del lider es ",
+                    seeThat("el campo trabajo debe contener :",
                             datos -> new ResponseQuestionPutReqres().answeredBy(actor).getJob(),
                             equalTo("zion resident"))
             );
@@ -92,7 +92,7 @@ public class PutStepdefinition extends ServiceSetup {
             actor.should(
                     seeThat("El codigo de respuesta", ResponseCode
                             .was(), equalTo(statusCode)),
-                    seeThat("el campo del lider es ",
+                    seeThat("el mensaje que debe mostrar es",
                             datos -> new ResponseQuestionPutJson().answeredBy(actor).getTitle(),
                             equalTo("dale a tu cuerpo alegria macarena"))
             );

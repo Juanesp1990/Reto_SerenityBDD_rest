@@ -52,7 +52,7 @@ public class PostStepdefinition extends ServiceSetup {
             actor.should(
                     seeThat("El codigo de respuesta", ResponseCode
                             .was(), equalTo(statusCode)),
-                    seeThat("el campo del lider es ",
+                    seeThat("el en el campo trabajo debe aparecer ",
                             datos -> new ResponseQuestionPostReqres().answeredBy(actor).getJob(),
                             equalTo("leader"))
             );
@@ -96,7 +96,7 @@ public class PostStepdefinition extends ServiceSetup {
             actor.should(
                     seeThat("El codigo de respuesta", ResponseCode
                             .was(), equalTo(statusCode)),
-                    seeThat("el campo del l",
+                    seeThat("El registro creado debe ser ",
                             datos -> new ResponseQuestionPostJson().answeredBy(actor).getTitle(),
                             equalTo("Juanes"))
             );

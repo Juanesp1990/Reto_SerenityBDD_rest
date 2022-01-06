@@ -23,3 +23,13 @@ Csrc/main/java/co/com/sofka/questions/ResponseQuestionPutReqres.java,7\1\715bc8
 ,src/main/java/co/com/sofka/tasks/DoPost.java,4\2\428c785bb26deaa91d6fbe6ef6ddbb52158e1102
 ‚
 Rsrc/test/java/co/com/sofka/runners/services/rest/cucumber/PostPutTestCucumber.java,9\3\93ea67edbe9f1c0372a5f796b5ca36fc43817a59
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+€
+Psrc/test/java/co/com/sofka/stepdefinitions/services/rest/PostStepdefinition.java,5\9\59d4744b11bf3fe2be3326e95aac8b144962f94e
+r
+Bsrc/main/java/co/com/sofka/questions/ResponseQuestionPostJson.java,b\f\bfe7075a0b97c98fb85522b1e245630ddb293dc4
+f
+6src/main/java/co/com/sofka/questions/ResponseCode.java,b\7\b72afe5f4b78ffd886b47f3ce25db689e4ceb2ad
+
+Osrc/test/java/co/com/sofka/stepdefinitions/services/rest/PutStepdefinition.java,0\e\0e832e653d7f8e25ce2be624de48ff19f84356b1
